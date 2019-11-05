@@ -1,0 +1,41 @@
+Estruturas de controle:
+
+Condicionais:
+
+if (condição){
+ //verdadeira
+}
+
+
+if (condição){
+ //verdadeira
+} else{
+ //falsa
+}
+
+Obs1: Na estrutura if else uma das condições será escrita
+Obs2: Nunca as duas condições serão escritas simultaneamente
+
+___________________________________
+DOM (document Object Model)
+-> identifica objetos no html
+
+<tag> -> id
+
+Comparadores
+
+> maior que
+>= maior ou igual a
+< menor que
+<= menor igual
+== comparador de igualdade
+!= diferente
+
+
+
+Operadores lógicos :
+AND (&&)
+OR (||)
+NOT (!)
+
+
