@@ -16,26 +16,56 @@ if (condição){
 Obs1: Na estrutura if else uma das condições será escrita
 Obs2: Nunca as duas condições serão escritas simultaneamente
 
-___________________________________
-DOM (document Object Model)
+if (condição1){
+ //condição1 verdadeira
+} else if (condição2) {
+ //condição2 verdadeira
+} else {
+ //caso nenhuma condição seja verdadeira
+}
+
+Obs1: Esta é uma única estrutura
+Obs2: Ao encontrar uma condição verdadeira a estrutura é encerrada
+Obs3: O else final não é obrigatório
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________
+DOM (Document Object Model)
 -> identifica objetos no html
 
-<tag> -> id
+<tags> -> id
 
 Comparadores
 
-> maior que
+>  maior que
 >= maior ou igual a
-< menor que
-<= menor igual
-== comparador de igualdade
+<  menor que
+<= menor ou igual a
+== comaparador de igualdade
 != diferente
 
+Operadores lógicos:
+AND  (&&)
+OR   (||)
+NOT  (!)
 
 
-Operadores lógicos :
-AND (&&)
-OR (||)
-NOT (!)
+
+
+
+
+
+
+
+
+
 
 
