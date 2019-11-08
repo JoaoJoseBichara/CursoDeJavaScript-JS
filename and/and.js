@@ -6,6 +6,9 @@
 let receive
 let sw1 = false
 let sw2 = false
+let broken = false // variável de apoio para quebrar a lâmpada
+//false -> lampada inteira
+//true -> lampada quebrada
 
 function sw(receive) {
     // a estrutura abaixo verifica o status das chaves
@@ -24,10 +27,21 @@ function sw(receive) {
         document.getElementById('sw2').src = 'swoff.png'
         sw2 = false
     }
-    //AND
-    if (sw1 == true && sw2 == true) {
-        document.getElementById('lamp').src = 'on.jpg'  
-    } else {
-        document.getElementById('lamp').src = 'off.jpg'
+
+    //LAMP
+    if (receive == 3){
+        document.getElementById('lamp').src = 'broken.jpg'
+        broken = true  
     }
+
+    //AND
+    if (broken == false){
+        if(sw1 == true && sw2 == true) {
+            document.getElementById('lamp').src = 'on.jpg'
+        } else {
+            document.getElementById('lamp').src = 'off.jpg'
+        }
+
+    }
+    
 }
